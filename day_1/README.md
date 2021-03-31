@@ -3,7 +3,7 @@
 
 ### Summary
 
-In this challenge Kevin required us to fix a nested container issue in which the child container of the parent container contained text which was overflowing the child container due to the height being set.
+In this challenge Kevin required us to fix a nested container issue in which the child container of the parent container contained text which was overflowing the child container due to the height of the parent continer being set to a pixel value.
 
 ### Part 1 Solution:
 
