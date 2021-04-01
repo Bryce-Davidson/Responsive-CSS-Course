@@ -60,7 +60,7 @@ You can get caught up when setting the margin of a group of elements _em_ but th
 
 `em` (not font-size) -> element font-size
 
-`rem` (any property) -> root font-size `<html>`
+`rem` (any property) -> `<html>` font-size
 
 
 
