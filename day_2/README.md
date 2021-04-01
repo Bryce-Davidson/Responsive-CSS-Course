@@ -52,7 +52,7 @@ The fact that properties other than the font-size such as margin and padding loo
 
 ### Where can you get caught up?
 
-You can get caught up when setting the margin of a group of elements _em_ but then any element that inherits that class with a different font-size will have the margin set relative to its font-size.
+You can get caught up when you set a master classes margin or padding or any other property relative to the master font-size, and then when you crate an element using that master class and change the font-size that elements padding won't be the same as the master containers. This can come up in stuff like buttons.
 
 ## Summary
 
