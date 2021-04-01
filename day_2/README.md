@@ -68,3 +68,5 @@ You can get caught up when setting the margin of a group of elements _em_ but th
 
 ### Why you shouldn't set font-sizes using em
 
+Compounding font-sizes is a common problem in CSS so it's often better to set font-sizes with `rem` and then set all other properties relative to this font-size using `em`.
+
