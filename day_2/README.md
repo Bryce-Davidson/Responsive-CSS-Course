@@ -24,7 +24,7 @@ What _rem_ stands for is _root em_ which is a reference to the `<html>` element'
 
 for _rems_ compounding of font-sizes is _inactive_.
 
-### em With any Other Property
+### em with any other property
 
 _em_ has a slightly different behaviour with margin & padding and any other property where instead of looking at the parent element's margin & padding it looks at the current elements font-size.
 
