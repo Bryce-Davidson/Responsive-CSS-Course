@@ -49,3 +49,7 @@ The same kind of behaviour does not apply to _rem_, because _rem_ is always look
 ### Why This is Helpful?
 
 The fact that properties other than the font-size such as margin and padding look at the *elements font-size* is extremely useful when adjusting the font-size of a element as these other properties set in _em_ ensure that all we have to focus on is the elements font-size and the container will adjust to the text.
+
+### Where can you get caught up?
+
+You can get caught up when setting the margin of a group of elements _em_ but then any element that inherits that class with a different font-size will have the margin set relative to its font-size.
