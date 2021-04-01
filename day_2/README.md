@@ -14,7 +14,7 @@ In the world of web design em has to do with *font-sizes*.
 
 If you set a font-size using em it will be in relation to that elements parent font-size.
 
-That is, if the parent element has a font-size then a child element using `x ems` will have a font-size of `x*(parent font-size)`.
+That is, if the parent element has a font-size `n` then a child element with a font-size of `xem` will have a font-size of `x * n`.
 
 for _ems_ the compounding of font-sizes is *active*, that is if there are multiple generations of elements inside a parent element the last child element will have a compound font-size relative to the parent element made up of all it's predecessors.
 
