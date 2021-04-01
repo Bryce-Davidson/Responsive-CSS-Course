@@ -54,8 +54,17 @@ The fact that properties other than the font-size such as margin and padding loo
 
 You can get caught up when setting the margin of a group of elements _em_ but then any element that inherits that class with a different font-size will have the margin set relative to its font-size.
 
+## Summary
 
-## Do's and Don't
+`em` (font-size) -> parent font-size
+
+`em` (not font-size) -> element font-size
+
+`rem` (any property) -> root font-size `<html>`
+
+
+
+## Do's and Don'ts
 
 ### Why you shouldn't set font-sizes using em
 
