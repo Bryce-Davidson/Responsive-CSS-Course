@@ -1,8 +1,8 @@
-# Day 3 - Enter max-width
+# Day 3 - Enter `max-width`
 
 On this day Kevin begins talking about max-width property of elemnts.
 
-max-width allows you to set a size for an element such that the element will not grow beyond that width upon being intorduced on larger screen sizes.
+max-width allows you to set a size for an element such that the element will not grow beyond that width upon being introduced on larger screen sizes.
 
 ## Challenge #2
 

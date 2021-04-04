@@ -1,5 +1,4 @@
-# Day 1 Challenge
-## Don't Use Pixel-Width or Pixel-Height
+# Day 1 - Don't Use Pixel-Width or Pixel-Height
 
 ### Summary
 
