@@ -1,4 +1,4 @@
-# Day 2 Notes
+# Day 2 - Getting Familiar with Relative Units
 
 In todays lesson we are learning about the relative units _rem_ and _em_.
 
