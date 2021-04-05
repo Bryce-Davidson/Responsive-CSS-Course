@@ -8,6 +8,8 @@ The viewport units are very good for expressing content padding such that we hav
 
 When using viewport units for type, we can always express a specific size of type for really small screens and one for really big screens and have the viewport-units handle everything in between.
 
+One really helpful note is that we can use the `vmin` and the `vmax` in order to set font-sizes because it will only grow the content relative to the dimension that is no longer bigger or smaller than the other.
+
 ## vh
 
 The `vh` unit is a representation of the **viewport height** which means we can *always* load a conent block at the full height, or half the height of the viewport of the viewing device.
