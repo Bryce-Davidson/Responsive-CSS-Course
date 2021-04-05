@@ -7,5 +7,5 @@
 
 ## Principles
 
-Use as many relative units as possible.
-Make sure that you are using the relative unit needed to epxress the size of the content relative to what you want.
+- Use as many relative units as possible
+- The tools of responsive CSS are relative units
