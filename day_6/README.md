@@ -4,6 +4,22 @@ Today kevin is teaching us some reasons it may not be the best idea to use ems f
 
 `width` and `max-width`
 
+The article describes a quirky effect between the properties `width` and `max-width` where doing this
+
+```css
+    .one {
+        width: 600px;
+        max-width: 100%;
+    }
+
+    .two {
+        width: 100%;
+        max-width: 600px;
+    }
+```
+
+[has no difference in effect](https://codepen.io/chriscoyier/pen/pbaQvG?editors=1100).
+
 Kevin goes over some of the previous video content again in order to drive home the concept that because ems are a relative unit that get their measurment from the parent element you can get some pretty horrible cascading behaviour from them if you set them on certain elements such as a `<ul>` element;
 
 The main challenge with using `ems` with font-size is that it can create a compounding effect with nested elements text growing in size.
