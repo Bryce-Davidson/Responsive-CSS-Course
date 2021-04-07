@@ -1,0 +1,40 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background-color: #23424A;
+    color: white;
+}
+
+.margin {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.intro-content {
+    width: 80%;
+    padding: 100px 0;
+}
+
+.intro-content h2 {
+    font-size: 3rem;
+}
+
+.intro-content p {
+    font-size: 21px;
+}
+
+.intro-content button {
+    width: 20%;
+    font-size: 21px;
+    padding: 15px 20px;
+    border-radius: 2rem;
+    border: 0;
+    background-color: #38CFD9;
+}
