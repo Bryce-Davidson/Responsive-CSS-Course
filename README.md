@@ -8,6 +8,7 @@
 - Relative units `em` and `rem`
 - Using `max-width`
 - Discovering `vh, vw, vmax, vmin`
+- Don't use `em`s for `font-size`
 
 ## Principles
 
