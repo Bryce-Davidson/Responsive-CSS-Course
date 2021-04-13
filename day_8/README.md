@@ -20,7 +20,7 @@ If we do not want the flex container to shrink the flex items down to the smalle
 
 ## Defaults
 
-On default a `display: flex` container will display the `flex item` using the property `flex-direction: row` this indicates that each flex item will be placed along a single row and have thier borders shrunken if necessary to fit all items along the same axis.
+On default a `display: flex` container will display the `flex-item` using the property `flex-direction: row` this indicates that each flex item will be placed along a single row and have thier borders shrunken if necessary to fit all items along the same axis.
 
 `flex-containers` take into account the `flex-items` natural width.
 
@@ -29,6 +29,10 @@ On default a `display: flex` container will display the `flex item` using the pr
 It only distributes the remaining space evenly if it cannot fit all of it's children along the row after shrinking them down to their natural width.
 
 The priority of the steps above are as follows:
+
+> natural width
+
+> the width of a element from the content within or the width supplied
 
 1. Fit everything along row
     - Shrink `flex-items` down to natural width
