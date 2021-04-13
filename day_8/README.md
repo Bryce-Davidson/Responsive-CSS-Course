@@ -30,9 +30,9 @@ It only distributes the remaining space evenly if it cannot fit all of it's chil
 
 The priority of the steps above are as follows:
 
-> natural width
-
-> the width of a element from the content within or the width supplied
+> natural width:
+>
+> the width of a element from it's supplied width or it's content
 
 1. Fit everything along row
     - Shrink `flex-items` down to natural width
