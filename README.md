@@ -4,11 +4,12 @@
 
 ## Table of Contents
 
-- Don't use `px` for width or height
-- Relative units `em` and `rem`
-- Using `max-width`
-- Discovering `vh, vw, vmax, vmin`
-- Don't use `em`s for `font-size`
+- Don't use `px` for width or height - Day 1
+- Relative units `em` and `rem` - Day 2
+- Using `max-width` - Day 3
+- Discovering `vh, vw, vmax, vmin` - Day 4
+- Don't use `em`s for `font-size` - Day 6
+- Flex-box, `flex-containers`, `flex-items` - Day 8
 
 ## Principles
 
