@@ -22,7 +22,7 @@ If we do not want the flex container to shrink the flex items down to the smalle
 
 On default a `display: flex` container will display the `flex item` using the property `flex-direction: row` this indicates that each flex item will be placed along a single row and have thier borders shrunken if necessary to fit all items along the same axis.
 
-`flex-container`s take into account the `flex-items` natural width.
+`flex-containers` take into account the `flex-items` natural width.
 
 `flex-container` does not prioritize evenly distributing space to it's children proportionally, if it can shrink one down further according to its natural width, it will.
 
@@ -32,5 +32,5 @@ The priority of the steps above are as follows:
 
 1. Fit everything along row
     - Shrink `flex-items` down to natural width
-    - Evenly distribute space to remaining `flex-items` which do not fit.
-        - Overflow if cannot display at smallest content (side scrolling)
+    - Evenly distribute space to `flex-items` which do not fit at natural width.
+        - Overflow if space is smaller than `flex-items` smallest content.
