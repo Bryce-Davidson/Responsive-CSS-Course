@@ -4,6 +4,8 @@ Today we are beggining our pursuit into more complicated layouts with flexbox!
 
 Kevin says this part of the course isn't a complete overview of flexbox but more a way we can get up and running with flexbox very quickly.
 
+We are also jumping into challenge 4 which has to do with flexbox.
+
 ## Flex Container
 
 The display property of an element specifies the type of the element, specifically we can use a `display: flex;` to turn the element into a `flex container`.
@@ -24,9 +26,9 @@ On default a `display: flex` container will display the `flex-item` using the pr
 
 `flex-containers` take into account the `flex-items` natural width.
 
-`flex-container` does not prioritize evenly distributing space to it's children proportionally, if it can shrink one down further according to its natural width, it will.
+A `flex-container` does not prioritize evenly distributing space to it's children proportionally, if it can shrink one down further according to its natural width, it will.
 
-It only distributes the remaining space evenly if it cannot fit all of it's children along the row after shrinking them down to their natural width.
+A `flex-container` only distributes the remaining space evenly if it cannot fit all of it's children along the row after shrinking them down to their natural width.
 
 The priority of the steps above are as follows:
 
@@ -35,6 +37,14 @@ The priority of the steps above are as follows:
 > the width of a element from it's supplied width or it's content
 
 1. Fit everything along row
+    2. If Can't
     - Shrink `flex-items` down to natural width
     - Evenly distribute space to `flex-items` which do not fit at natural width.
         - Overflow if space is smaller than `flex-items` smallest content.
+
+
+## Gap Property
+
+The `gap: ...;` property is a special property for `flex-containers` in order to place some space between all `flex-items` which doesn't affect the outside spacing.
+
+`Warning!!` Gap is not well supported instead use the CSS selector `.col + .col` which specifies a combinator selector that selects an adjacent sibling if it exists. That is the first instance of the class `col` will not be selected because it does not have another instance of `col` before it.
