@@ -10,8 +10,9 @@
 - Discovering `vh, vw, vmax, vmin` - Day 4
 - Don't use `em`s for `font-size` - Day 6
 - Flex-box, `flex-containers`, `flex-items` - Day 8
+- HTML multi-classes, verticle `flex-containers`, flex-box heights, `align-items`, `justify-content` - day 9
 
 ## Principles
 
 - Use relative units wherever possible
-- The tools of responsive CSS are relative units
+- Flexbox is our friend
